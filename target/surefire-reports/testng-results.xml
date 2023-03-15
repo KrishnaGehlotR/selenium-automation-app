@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[OpenApp]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[RegisterUser]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[RegisterUser]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Hi Bye]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[EditUser]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[RegisterUser]]>
+    </line>
+    <line>
+      <![CDATA[DeleteUser]]>
+    </line>
+    <line>
+      <![CDATA[un: admin]]>
+    </line>
+    <line>
+      <![CDATA[pw: 123]]>
+    </line>
+    <line>
+      <![CDATA[un: UserA]]>
+    </line>
+    <line>
+      <![CDATA[pw: 456]]>
+    </line>
+    <line>
+      <![CDATA[Precondition]]>
+    </line>
+    <line>
+      <![CDATA[Postconditon]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[DeleteUser]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[CloseApp]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14073" started-at="2018-07-08T11:25:08Z" finished-at="2018-07-08T11:25:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14073" started-at="2018-07-08T11:25:08Z" finished-at="2018-07-08T11:25:22Z">
+      <class name="com.testng.TestClass0003">
+        <test-method status="PASS" signature="registerUser()[pri:0, instance:com.testng.TestClass0003@4bbfb90a]" name="registerUser" duration-ms="0" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[RegisterUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:com.testng.TestClass0003@4bbfb90a]" name="deleteUser" duration-ms="0" started-at="2018-07-08T16:55:08Z" depends-on-methods="com.testng.TestClass0003.registerUser" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[DeleteUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- com.testng.TestClass0003 -->
+      <class name="com.testng.TestClass0002">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.testng.TestClass0002@7494e528]" name="openApp" is-config="true" duration-ms="14" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[OpenApp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testng.TestClass0002@7494e528]" name="login" is-config="true" duration-ms="1" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="registerUser()[pri:-1, instance:com.testng.TestClass0002@7494e528]" name="registerUser" duration-ms="1" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[RegisterUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.testng.TestClass0002@7494e528]" name="logout" is-config="true" duration-ms="0" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testng.TestClass0002@7494e528]" name="login" is-config="true" duration-ms="0" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="registerUser()[pri:-1, instance:com.testng.TestClass0002@7494e528]" name="registerUser" duration-ms="0" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[RegisterUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.testng.TestClass0002@7494e528]" name="logout" is-config="true" duration-ms="1" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="editUser()[pri:0, instance:com.testng.TestClass0002@7494e528]" name="editUser" duration-ms="0" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[EditUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testng.TestClass0002@7494e528]" name="login" is-config="true" duration-ms="0" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.testng.TestClass0002@7494e528]" name="logout" is-config="true" duration-ms="0" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="deleteUser()[pri:1, instance:com.testng.TestClass0002@7494e528]" name="deleteUser" duration-ms="0" started-at="2018-07-08T16:55:22Z" finished-at="2018-07-08T16:55:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[DeleteUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testng.TestClass0002@7494e528]" name="login" is-config="true" duration-ms="0" started-at="2018-07-08T16:55:22Z" finished-at="2018-07-08T16:55:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="classApp()[pri:0, instance:com.testng.TestClass0002@7494e528]" name="classApp" is-config="true" duration-ms="0" started-at="2018-07-08T16:55:22Z" finished-at="2018-07-08T16:55:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[CloseApp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- classApp -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.testng.TestClass0002@7494e528]" name="logout" is-config="true" duration-ms="0" started-at="2018-07-08T16:55:22Z" finished-at="2018-07-08T16:55:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.testng.TestClass0002 -->
+      <class name="com.testng.TestClass0001">
+        <test-method status="PASS" signature="testA()[pri:0, instance:com.testng.TestClass0001@30b8a058]" name="testA" duration-ms="1" started-at="2018-07-08T16:55:08Z" finished-at="2018-07-08T16:55:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hi Bye]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- com.testng.TestClass0001 -->
+      <class name="com.testng.TestClass0005">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.testng.TestClass0005@5e853265]" name="preCondition" is-config="true" duration-ms="1" started-at="2018-07-08T16:55:09Z" finished-at="2018-07-08T16:55:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Precondition]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.testng.TestClass0005@5e853265]" name="verifyTitle" duration-ms="13995" started-at="2018-07-08T16:55:09Z" finished-at="2018-07-08T16:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.testng.TestClass0005@5e853265]" name="postCondition" is-config="true" duration-ms="0" started-at="2018-07-08T16:55:22Z" finished-at="2018-07-08T16:55:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Postconditon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.testng.TestClass0005 -->
+      <class name="com.testng.TestClass0004">
+        <test-method status="PASS" signature="registerUser(java.lang.String, int)[pri:0, instance:com.testng.TestClass0004@6c49835d]" name="registerUser" duration-ms="0" started-at="2018-07-08T16:55:08Z" data-provider="getData" finished-at="2018-07-08T16:55:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[un: UserA]]>
+            </line>
+            <line>
+              <![CDATA[pw: 456]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method status="PASS" signature="registerUser(java.lang.String, int)[pri:0, instance:com.testng.TestClass0004@6c49835d]" name="registerUser" duration-ms="0" started-at="2018-07-08T16:55:08Z" data-provider="getData" finished-at="2018-07-08T16:55:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[un: admin]]>
+            </line>
+            <line>
+              <![CDATA[pw: 123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+      </class> <!-- com.testng.TestClass0004 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
